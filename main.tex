@@ -1,0 +1,42 @@
+\documentclass[11pt,titlepage]{report}
+\usepackage{Preamble}
+
+\begin{document}
+
+\begin{titlepage}
+    \newgeometry{margin=3cm}
+	\centering
+%    \includegraphics[width=0.8\linewidth]{BIT.png}\\[0.25cm] 	% University Logo
+    \textsc{\LARGE Jianting's Lecture Review Notes}\\ \vspace{\fill}
+    \textbf{\textsc{\fontsize{20}{20}\selectfont 近世代数\\ Contemporary Algebra}}\\ \vspace{\fill}
+    \medskip
+    \textsc{2020 Fall}\\
+    \medskip
+    \textsc{Instructor : 胡峻}\\
+    \medskip
+    \textsc{Textbook : 近世代数（2nd Ed.）韩士安、林磊}\\
+    \bigskip
+	\textsc{Review for Contemporary Algebra}\\[0.4cm]
+	\rule{\linewidth}{0.2 mm} \\[0.5 cm]
+	Jianting Feng\\
+	\today\\
+	BEIJING INSTITUTE OF TECHNOLOGY
+\end{titlepage}
+\restoregeometry
+
+\newpage
+\tableofcontents
+\newpage
+\thispagestyle{numberonly}
+
+
+\chapter{群}
+\subfile{Group}
+
+
+
+\clearpage
+\pagestyle{numberonly}
+\printbibliography
+
+\end{document}
